@@ -28,9 +28,6 @@ This is aggregated data, i.e. there are multiple customers per row. Dimensions t
 
 [ppt](visual_presentation.pptx)
 
-## Tableau
-
-[Tableau](https://public.tableau.com/app/profile/md.abu.yusuf/viz/Customerbaseglobalretailbank/GlobalretailBankDashboard?publish=yes)
 
 # Summary and conclusions
 
@@ -40,20 +37,46 @@ This is aggregated data, i.e. there are multiple customers per row. Dimensions t
 
 ## The significant findings are:
 
-### 1. Electricity access to population increases in every country
+### 1. Electricity access to population in every country are increases year by year
 
-### 2. Countries are successful to level up renewable energy to  their national grid. Hence, Middle African countries are   
-treating as examples.
+### 2. Countries are successful to supply more renewable energy to their national grid. Hence, Middle African countries are   
+treating as examples
 
-### 3. The more developed countries emit more CO2 in the environment though they produce significant electricity 
+### 3. The developed or wester world produces largest amount of electricity from all sources
+
+### 4. The more developed countries emit more CO2 in the environment though they produce significant electricity 
 from natural resources. ex: China, USA etc.
 
-### 4. Per person health expenses are gradually increases while CO2 emissions also gradually increases except in the
+### 5. Per person health expenses are gradually increases while CO2 emissions also gradually increases except in the
 year 2020 
 
-### 5. Global energy has an impact on forest. Its decreases from 2000 to 2020
+### 6. Global energy has an impact on forest. Its decreases from 2000 to 2020
 
-### 6. Few features in the data are closely correlated to each other. Findings those through the correlation matrix
+### 7. Few features in the data are closely correlated to each other. Findings those through the correlation matrix
+
+
+
+## In essence I can say that any stack holder uses this model to find out predictive result of one or both of the two targets
+to make a business decision. In addition s/he considers the visual reports which are enclosed in this notebook. I included 
+an interface developed by streamlit python package to predict 'value_co2_emissions_kt_by_country' by giving input in the 
+input field. To run this app in local machine please follow the following steps:
+ 
+       1. Go to the folder 'app'
+
+       2. run command 'streamlit run your_app.py'
+
+       3. you see the home page with the address 			 'http://localhost:8501/'
+
+       4. Select 'Prediction' menu item from left menu bar
+
+       5. Now you will see a form. Input values
+
+       6. Press button 'Get Your Prediction' to get the prediction of CO2 emissions for a year
+
+
+
+
+
 
 ### 7. Used three Machine Learning algorithms for two sets of targets and features to find out a appropriate model.    
 For both cases Random Forest algorithm performs very well for target 'primary_energy_consumption_per_capita_kwh_person' and 'value_co2_emissions_kt_by_country' 0.885764 and 0.995015  
