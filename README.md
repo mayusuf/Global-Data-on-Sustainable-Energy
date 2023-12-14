@@ -9,29 +9,36 @@ This is aggregated data, i.e. there are multiple customers per row. Dimensions t
 
 ## Questions
 
-#### 1. Access to Electricity of Population(%) (By Country with Map Slider)
+1. Access to Electricity of Population(%) (By Country with Map Slider)
 
 ![Electricity ](reports/1.png)
 
-#### 2. Renewable Energy  percentage(%) of total final energy consumption (By Country with Map Slider)
+
+2. Renewable Energy  percentage(%) of total final energy consumption (By Country with Map Slider)
 
 ![Renewable](reports/2.png)
 
-#### 3. Top 10 Countries electricity supply from fossil, nuclear and renewable energy
 
-#### 4. Top 10 Countries electricity supply from renewable energy
+3. Top 10 Countries electricity supply from fossil, nuclear and renewable energy
 
-#### 5. Top 10 Countries with most CO2 Emissions
 
-#### 6. Compare Electricity production from fossil and renewable sources (By Year)
+4. Top 10 Countries electricity supply from renewable energy
 
-#### 7. CO2 Emission and Per Person Health Expense(USD)
 
-#### 8. How Forest is decreasing from the year 2000 to 2020
+5. Top 10 Countries with most CO2 Emissions
+
+
+6. Compare Electricity production from fossil and renewable sources (By Year)
+
+
+7. CO2 Emission and Per Person Health Expense(USD)
+
+
+8. How Forest is decreasing from the year 2000 to 2020
 
 
 ## Visual Presentation
-#### PPT
+PPT
 
 [ppt](visual_presentation.pptx)
 
@@ -44,25 +51,30 @@ From the beginning of the project handle the data very carefully. Follow all the
 
 ## The significant findings are:
 
-#### 1. Electricity access to population in every country are increases year by year
+1. Electricity access to population in every country are increases year by year
 
 
-#### 2. Countries are successful to supply more renewable energy to their national grid. Hence, Percentage of energy supply increases year by year all over the world but at the begining Middle african countries are pioneer 
+2. Countries are successful to supply more renewable energy to their national grid. Hence, Percentage of energy supply increases year by year all over the world but at the begining Middle african countries are pioneer 
 
 
-#### 3. The developed or wester world produces largest amount of electricity from all sources
+3. The developed or wester world produces largest amount of electricity from all sources
 
-#### 4. The more developed countries emit more CO2 in the environment though they produce significant electricity 
+
+4. The more developed countries emit more CO2 in the environment though they produce significant electricity 
 from natural resources. ex: China, USA etc.
 
-#### 5. Per person health expenses are gradually increases while CO2 emissions also gradually increases except in the
+
+5. Per person health expenses are gradually increases while CO2 emissions also gradually increases except in the
 year 2020 
 
-#### 6. Global energy has an impact on forest. Its decreases from 2000 to 2020
 
-#### 7. Few features in the data are closely correlated to each other. Findings those through the correlation matrix
+6. Global energy has an impact on forest. Its decreases from 2000 to 2020
 
-#### 8. Used three Machine Learning algorithms for two sets of targets and features to find out a appropriate model. For both cases Random Forest algorithm performs very well for targets 'primary_energy_consumption_per_capita_kwh_person' and 'value_co2_emissions_kt_by_country' value of 0.885764 and 0.995015  respectively.
+
+7. Few features in the data are closely correlated to each other. Findings those through the correlation matrix
+
+
+8. Used three Machine Learning algorithms for two sets of targets and features to find out a appropriate model. For both cases Random Forest algorithm performs very well for targets 'primary_energy_consumption_per_capita_kwh_person' and 'value_co2_emissions_kt_by_country' value of 0.885764 and 0.995015  respectively.
 
 
 In essence I can say that any stack holder uses this model to find out predictive result of one or both of the two targets
