@@ -7,29 +7,32 @@ Its a data on customer of a bank is operating in global market.
 
 This is aggregated data, i.e. there are multiple customers per row. Dimensions tend to be earlier columns, measures to the right.
 
-# Questions
+## Questions
 
-## 1. Access to Electricity of Population(%) (By Country with Map Slider)
+### 1. Access to Electricity of Population(%) (By Country with Map Slider)
 
-## 2. Renewable Energy percentage(%) of total final energy consumption (By Country with Map Slider)
+### 2. Renewable Energy  percentage(%) of total final energy consumption (By Country with Map Slider)
 
-## 3. Top 10 Countries with electricity from renewable energy
+### 3. Top 10 Countries electricity supply from fossil, nuclear and renewable energy
 
-## 4. Top 10 Countries with most CO2 Emissions
+### 4. Top 10 Countries electricity supply from renewable energy
 
-## 5. Compare Electricity production from fossil and renewable source (By Year)
+### 5. Top 10 Countries with most CO2 Emissions
 
-## 6. CO2 Emission and PP Health Expense(USD)
+### 6. Compare Electricity production from fossil and renewable sources (By Year)
 
-## 7. How Forest is dcreasing from 2000 to 2020
+### 7. CO2 Emission and Per Person Health Expense(USD)
 
-# Visual Presentation
-## PPT
+### 8. How Forest is decreasing from the year 2000 to 2020
+
+
+## Visual Presentation
+### PPT
 
 [ppt](visual_presentation.pptx)
 
 
-# Summary and conclusions
+## Summary and conclusions
 
 ## After concluded the project I am very much excited to share rich insights and exploration of data on global sustainable energy. In addition, happy to share that I included few more data got through API of World Bank. It makes the original data richer and provides different dimensions to think.
 
@@ -39,8 +42,11 @@ This is aggregated data, i.e. there are multiple customers per row. Dimensions t
 
 ### 1. Electricity access to population in every country are increases year by year
 
-### 2. Countries are successful to supply more renewable energy to their national grid. Hence, Middle African countries are   
-treating as examples
+![Electricity ](reports/1.png)
+
+### 2. Countries are successful to supply more renewable energy to their national grid. Hence, Percentage of energy supply increases year by year all over the world but at the begining Middle african countries are pioneer 
+
+![Renewable](reports/2_3.png)
 
 ### 3. The developed or wester world produces largest amount of electricity from all sources
 
@@ -56,7 +62,7 @@ year 2020
 
 
 
-## In essence I can say that any stack holder uses this model to find out predictive result of one or both of the two targets
+### In essence I can say that any stack holder uses this model to find out predictive result of one or both of the two targets
 to make a business decision. In addition s/he considers the visual reports which are enclosed in this notebook. I included 
 an interface developed by streamlit python package to predict 'value_co2_emissions_kt_by_country' by giving input in the 
 input field. To run this app in local machine please follow the following steps:
