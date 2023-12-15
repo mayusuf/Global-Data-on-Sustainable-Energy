@@ -2,10 +2,7 @@
 https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy/data
 
 
-Its a data on customer of a bank is operating in global market.
-
-
-This is aggregated data, i.e. there are multiple customers per row. Dimensions tend to be earlier columns, measures to the right.
+This comprehensive dataset showcasing sustainable energy indicators and other useful factors across all countries from 2000 to 2020
 
 ## Questions
 
